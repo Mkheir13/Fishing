@@ -1,0 +1,21 @@
+:root {
+
+    /*Background color*/
+    --primary-color: #232528;
+    --secondary-color: #40ff00;
+    --tertiary-color: #ffee00;
+
+    @font-face {
+        font-family: 'Ironsides';
+        src: url('../assets/Ironsides.ttf');
+    }
+}
+
+body {
+    background-color: var(--primary-color);
+    height: 98vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
